@@ -1,0 +1,21 @@
+Se BGP-ruting:
+# clish -c "show route bgp"
+
+Se BGP-config:
+# clish -c "show configuration bgp"
+# clish -c "show configuration router-id"
+# clish -c "show configuration as"
+# clish -c "show configuration routemaps"
+
+Se statiske ruter:
+# clish -c "show configuration static-route"
+
+Se arp:
+# arp -a | grep [det du leter etter]
+
+Se interface config:
+# clish -c "show configuration interface"
+
+Se hvor FW ruter en gitt IP:
+# ip route get x.x.x.x
+
